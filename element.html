@@ -1,0 +1,58 @@
+<head>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="elView/style.css" type="text/css"/>
+    <!--jQueryUi css-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
+	
+	<title>Element Editor</title>
+</head>
+<body>
+  <div class ="editingButtons">
+            <button><a href="grid.html">Go to grid editor</a></button>
+            <h2>Element Editor</h2>
+            <button><a href="index.html" id="elEditorLink">Go to layout editor</a></button><!--change to a page-->
+     </div>
+	<div class="noMarnoPad">
+        
+			<div class="row dark tops">
+				Drag your element!
+				   <div class="container-fluid outCon">
+					  <div class="row" id="row0">
+						   <div class="controls" id="controlLeftCont">
+								<button type="button" id="controlLeft"><</button>
+						   </div>
+
+						   <div class="colsFill noMarnoPad slot" id="col0" data-column="0" data-row="0">
+							   <div class="el default inRows" id="newEl" data-id="z">Create new</div>
+						   </div>
+
+							<div class="controls" id="container_controlRight">
+								<button type="button" id="controlRight">></button>
+							</div>
+					   </div>
+				   </div>
+			</div>
+	</div>
+
+	<div class="outMid">
+		Options
+		<div class="mid">
+			<div class="row" data-row="full" id="root">
+				<div class="col fullBg slot" data-column="full"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>
+	<script src="elModel/OurElement.js"></script>
+	<script src="elController/DesignerElementEditorGlobalVars.js"></script>
+	<script src="elController/DesignerElementEditorServerRequests.js"></script>
+	<script src="elController/DesignerElementEditorPositionData.js"></script>
+	<script src="elController/DesignerElementEditorStyleData.js"></script>
+	<script src="elController/DesignerElementEditor.js"></script>
+</html>

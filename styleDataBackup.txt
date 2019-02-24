@@ -1,0 +1,71 @@
+[
+	{
+	  "collapsed": "true",
+	  "backgroundColor": "black",
+	  "fontColor": "B",
+	  "borderColor": "C",
+	  "itemCount": "1",
+	  "itemSize": "2",
+	  "columnWidth": "3"
+	},
+
+	{
+	  "collapsed": "false",
+	  "backgroundColor": "Aqua",
+	  "fontColor": "d",
+	  "borderColor": "z",
+	  "itemCount": "5",
+	  "itemSize": "2",
+	  "columnWidth": "0"
+	},
+
+	{
+	  "collapsed": "true",
+	  "backgroundColor": "Indigo",
+	  "fontColor": "Z",
+	  "borderColor": "D",
+	  "itemCount": "2",
+	  "itemSize": "3",
+	  "columnWidth": "1"
+	},
+
+	{
+	  "collapsed": "false",
+	  "backgroundColor": "grey",
+	  "fontColor": "F",
+	  "borderColor": "f",
+	  "itemCount": "5",
+	  "itemSize": "2",
+	  "columnWidth": "2"
+	},
+
+	{
+	  "collapsed": "false",
+	  "backgroundColor": "orchid",
+	  "fontColor": "d",
+	  "borderColor": "z",
+	  "itemCount": "5",
+	  "itemSize": "2",
+	  "columnWidth": "0"
+	},
+
+	{
+	  "collapsed": "true",
+	  "backgroundColor": "BurlyWood",
+	  "fontColor": "Z",
+	  "borderColor": "D",
+	  "itemCount": "2",
+	  "itemSize": "3",
+	  "columnWidth": "1"
+	},
+
+	{
+	  "collapsed": "false",
+	  "backgroundColor": "red",
+	  "fontColor": "F",
+	  "borderColor": "f",
+	  "itemCount": "5",
+	  "itemSize": "2",
+	  "columnWidth": "2"
+	}
+]
